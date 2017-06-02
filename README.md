@@ -23,10 +23,10 @@ Repository
 		 displayMenu();
 		 choice = getChoice(1, 3);
 		 if (choice == 1) {
-			 cout << "The weight in pounds is " << kilosToPounds() << endl << endl;
+			 cout << "Weight: " << kilosToPounds() << endl << endl;
 		 }
 		 else if (choice == 2)
-			 cout << "The weight in kilos is " << poundsToKilos() << endl << endl;
+			 cout << "Weight: " << poundsToKilos() << endl << endl;
 	 } while (choice != 3);	
 		    return 0;
 	 }
