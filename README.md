@@ -59,7 +59,7 @@ Repository
 	 double weight, kilos;
 	cout << "Please enter kilos: ";
 	 cin >> kilos;
-	 weight = kilos * 2.2;
+	 weight = kilos * 2.1;
 		return weight;
  
  }
@@ -69,6 +69,6 @@ Repository
 	 double weight, pounds;
 	 cout << "Please enter pounds: ";
 	 cin >> pounds;
-	 weight = pounds / 2.2;
+	 weight = pounds / 2.1;
 	 return weight;
  }
